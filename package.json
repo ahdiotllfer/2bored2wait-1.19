@@ -1,0 +1,37 @@
+{
+  "name": "@morec1337/2bored2wait-1.19",
+  "version": "1.0.0",
+  "description": "2b2t proxy",
+  "keywords": [
+    "minecraft",
+    "proxy",
+    "library",
+    "mineflayer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdiotllfer/2bored2wait-1.19"
+  },
+  "license": "GPL-3.0",
+  "author": "ahdiotllfer",
+  "contributors": [],
+  "main": "2b2w.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "fix": "standard-markdown --fix"
+  },
+  "dependencies": {
+    "deepcopy": "^2.1.0",
+    "mineflayer": "^4.11.0",
+    "prismarine-chat": "^1.9.1",
+    "smart-buffer": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "minecraft-data": "^3.41.0",
+    "minecraft-protocol": "^1.44.0",
+    "prismarine-item": "^1.14.0",
+    "standard-markdown": "^7.1.0",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@icetank/mcproxy",
+  "version": "1.0.3",
+  "description": "a minecraft proxy library powered by mineflayer",
+  "keywords": [
+    "minecraft",
+    "proxy",
+    "library",
+    "mineflayer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IceTank/mcproxy.git"
+  },
+  "license": "GPL-3.0",
+  "author": "rob9315",
+  "contributors": [
+    {
+      "name": "IceTank",
+      "url": "https://github.com/IceTank"
+    }
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "prepublish": "npm run build",
+    "postinstall": "npm run build",
+    "fix": "standard-markdown --fix"
+  },
+  "dependencies": {
+    "deepcopy": "^2.1.0",
+    "mineflayer": "^4.11.0",
+    "smart-buffer": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "minecraft-data": "^3.41.0",
+    "minecraft-protocol": "^1.44.0",
+    "prismarine-item": "^1.14.0",
+    "standard-markdown": "^7.1.0",
+    "typescript": "^4.3.5"
+  },
+  "bugs": {
+    "url": "https://github.com/icetank/mcproxy/issues"
+  },
+  "homepage": "https://github.com/icetank/mcproxy#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  }
+}
