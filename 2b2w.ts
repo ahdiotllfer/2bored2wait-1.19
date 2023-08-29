@@ -77,7 +77,7 @@ const server = minecraft_protocol.createServer({
   version,
   host: '0.0.0.0',
   'online-mode': false,
-  port: 25567,
+  port: 25566,
 });
 
 server.on('listening', () => {
